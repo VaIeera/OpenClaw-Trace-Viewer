@@ -1,0 +1,12 @@
+{
+  "id": "trace-viewer",
+  "name": "Trace Viewer",
+  "description": "Visual trace viewer for OpenClaw model interactions",
+  "version": "0.0.1",
+  "enabledByDefault": true,
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

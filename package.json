@@ -1,0 +1,21 @@
+{
+  "name": "@openclaw/trace-viewer",
+  "version": "2026.3.14",
+  "description": "Visual trace viewer for OpenClaw model interactions",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": "workspace:*"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
