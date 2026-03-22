@@ -2,6 +2,9 @@
 
 Visual trace viewer for OpenClaw model interactions. Inspect LLM inputs/outputs, tool calls, session lifecycle, and span metadata in a rich dark-mode UI with multiple color themes.
 
+![Trace List](trace-list.png)
+![Trace Detail](trace-detail.png)
+
 ## Features
 
 - **Trace timeline** — View all model interactions with status, channel, provider, and model info
@@ -116,5 +119,4 @@ The plugin is `enabledByDefault: true` and has no required configuration. To exp
 | `session_end`   | Pink   | Session end           |
 | `message`       | Cyan   | Message event         |
 
-Docs: `https://docs.openclaw.ai/plugins/trace-viewer`
-Plugin system: `https://docs.openclaw.ai/plugin`
+Docs: https://github.com/VaIeera/OpenClaw-Trace-Viewer
